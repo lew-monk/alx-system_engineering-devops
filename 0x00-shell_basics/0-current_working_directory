@@ -1,3 +1,2 @@
 #!/bin/bash
-Realpath=$(readlink-f 0-current_working_directory) # Gets the true path of the directory where the file is located
-echo $Realpath
+echo $(readlink-f 0-current_working_directory)
